@@ -1,8 +1,6 @@
 package com.fxd927.ae2tweaks.mixin;
 
 import appeng.api.upgrades.Upgrades;
-import appeng.blockentity.misc.VibrationChamberBlockEntity;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.ItemLike;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

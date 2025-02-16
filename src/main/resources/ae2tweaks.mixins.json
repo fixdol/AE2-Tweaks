@@ -6,9 +6,18 @@
   "refmap": "ae2tweaks.refmap.json",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MixinUpgrades",
+    "MixinAbstractPortableCell",
+    "MixinColorApplicatorItem",
+    "MixinFormationPlanePart",
     "MixinInscriberBlockEntity",
-    "MixinVibrationChamberBlockEntity"
+    "MixinIOBusPart",
+    "MixinIOPortBlockEntity",
+    "MixinMatterCannonItem",
+    "MixinMolecularAssemblerBlockEntity",
+    "MixinStorageBusPort",
+    "MixinUpgrades",
+    "MixinVibrationChamberBlockEntity",
+    "MixinWirelessTerminalItem"
   ],
   "client": [
   ],

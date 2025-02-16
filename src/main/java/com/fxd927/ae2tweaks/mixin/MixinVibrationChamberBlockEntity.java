@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(VibrationChamberBlockEntity.class)
-public abstract class MixinVibrationChamberBlockEntity {
+public class MixinVibrationChamberBlockEntity {
     @Redirect(
             method = "<init>",
             at = @At(
